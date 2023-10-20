@@ -1,0 +1,190 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+}
+
+body {
+  background-color: black;
+}
+
+#field {
+  /* border: 2px solid blueviolet; */
+  height: 50%;
+  width: 30%;
+
+  /* align-items: center; */
+  /* margin: 250px; */
+  margin: 100px 200px 200px 380px;
+}
+
+#welcome {
+  color: aliceblue;
+}
+
+.info1 {
+  border: 4px solid blueviolet;
+  border-radius: 10px;
+}
+
+#course {
+  margin-left: 35%;
+}
+
+/* #heading1 {
+  text-align: center;
+} */
+
+#video {
+  margin-left: 35%;
+}
+
+#page2{
+  /* padding: 0; */
+  /* margin: 0; */
+  /* box-sizing: border-box; */
+  /* display: flex; */
+  color: antiquewhite;
+}
+
+.p{
+  background-color: yellow;
+  /* text-size-adjust: 40px; */
+  border-spacing: 2px;
+  display: inline-block;
+  color: black;
+  border: 2px solid rgb(17, 17, 17);
+  border-radius: 30px;
+  margin: 0.2rem 0.4rem;
+  padding: 0.4rem 0.8rem;
+}
+
+.chem{
+  background-color: rgb(7, 250, 124);
+  display: inline-block;
+  border-spacing: 2px;
+  color: black;
+  border: 2px solid rgb(14, 15, 14);
+  border-radius: 30px;
+  margin: 0.2rem 0.4rem;
+  padding: 0.4rem 0.8rem;
+}
+
+.mathc{
+  background-color: rgb(250, 209, 7);
+  display: inline-block;
+  border-spacing: 2px;
+  color: black;
+  border: 2px solid rgb(14, 15, 14);
+  border-radius: 30px;
+  margin: 0.2rem 0.4rem;
+  padding: 0.4rem 0.8rem;
+}
+
+.teacher{
+  background-color: rgb(7, 213, 250);
+  /* display: inline-table; */
+  text-align: center;
+  border-spacing: 2px;
+  color: black;
+  border: 2px solid rgb(14, 15, 14);
+  border-radius: 30px;
+}
+
+.linkage{
+  border: 5px dotted yellow;
+  color: black;
+  background-color: blanchedalmond;
+  border-radius: 5px;
+}
+
+.imgteacher{
+  border: 2px solid rgb(9, 9, 9);
+  border-radius: 8px;
+  object-fit: cover;
+  /* object-fit: cover;
+  border-radius: 10px;
+  border-width: 100%;
+  justify-content: center; */
+  padding: 0px;
+  /* display: inline-block; */
+}
+
+.teachertext{
+  width: 40%;
+}
+ul{
+  margin: 1rem;
+}
+ul > li {
+  margin: 0.5rem 1rem;
+}
+/* .imgteacher{
+  display: block;
+  width: 100%;
+} */
+
+.imgteacher{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-wrap: wrap;
+}
+.imgteacher > img {
+  max-width: 40%;
+  border: 10px solid #c2ef2e;
+  border-radius: 30px;
+  /* aspect-ratio: 16/9; */
+  margin: 1rem;
+}
+/* .sideby{
+  display: flex;
+} */
+
+
+.course{
+  margin-left: 60px;
+  border: 6px solid #5b7cf2;
+
+  display:inline-block;
+  flex-wrap: wrap;
+  border-radius: 5px;
+}
+
+.physicslec{
+  margin-left: 60px;
+  border: 4px solid #b5ea22;
+  display:inline-block;
+  flex-wrap: wrap;
+  border-radius: 5px;
+
+}
+
+.chemlec{
+  margin-left: 60px;
+  border: 4px solid #b5ea22;
+  display:inline-block;
+  flex-wrap: wrap;
+  border-radius: 5px;
+
+}
+
+.mathslec{
+  margin-left: 60px;
+  border: 4px solid #d0f610;
+  display:inline-block;
+  flex-wrap: wrap;
+  border-radius: 5px;
+
+}
+
+.carouselslide{
+  height: 40%;
+  width: 50%;
+}
+
+.page1content{
+  display: flexbox;
+}
+
+
